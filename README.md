@@ -1,4 +1,6 @@
 # hello-world
-my first project on git
 
-hey , Ashish here , i am beginner to git and learning git is fun.
+hey!, Ashish here. I am beginner to git and learning git is fun!
+
+This is my first Repository on git.
+
