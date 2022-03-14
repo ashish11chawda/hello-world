@@ -1,0 +1,5 @@
+octoweek:
+    - '*'
+
+test-issue:
+    - '(test|testing)'
