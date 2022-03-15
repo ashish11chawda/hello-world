@@ -13,3 +13,12 @@ jobs:
         configuration-path: .github/issue-labeler.yml
         not-before: 2020-01-15T02:54:32Z
         enable-versioned-regex: 0
+
+  test:
+    name: setup environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: memes on isssues
+        uses: deep5050/memes-on-issues-action@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
